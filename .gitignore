@@ -1,15 +1,39 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# Gradle
+.gradle/
+build/
+**/build/
+.idea/
 .DS_Store
-/build
-/captures
+/local.properties
+/.gradle/
+/captures/
 .externalNativeBuild
-.cxx
-local.properties
+.cxx/
+*.iml
+
+# Android Studio
+.navigation/
+.settings/
+.classpath
+.project
+.metadata/
+.kotlin/
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# IntelliJ
+out/
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+
